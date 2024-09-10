@@ -64,10 +64,6 @@ Accuracy: 0.95
 weighted avg       0.95      0.95      0.95       200
 ```
 
-## Contributing
-
-Contributions are welcome! If you have suggestions for improving the code or adding new features, feel free to create a pull request or open an issue.
-
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
