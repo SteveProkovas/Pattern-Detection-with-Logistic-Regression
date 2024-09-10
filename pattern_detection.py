@@ -11,7 +11,7 @@ def generate_data(num_sequences, sequence_length):
     pattern = [1, 2, 3, 4]
 
     for _ in range(num_sequences):
-        if np.random.rand() > 0.5:  # 50% chance to include the pattern
+        if np.random.rand() > 0.25 :  # 25% chance to include the pattern
             start_index = np.random.randint(0, sequence_length - 4)
             sequence = np.random.randint(1, 10, sequence_length)
             sequence[start_index:start_index + 4] = pattern
