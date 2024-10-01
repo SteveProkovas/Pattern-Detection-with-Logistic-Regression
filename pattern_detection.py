@@ -41,7 +41,7 @@ def extract_features(sequences):
     return np.array(features)
 
 # Generate synthetic dataset with increased size
-X, y = generate_data(num_sequences=50000, sequence_length=10)  # Increased dataset size
+X, y = generate_data(num_sequences=5000, sequence_length=10)  # Increased dataset size
 X_features = extract_features(X)
 
 # Split the data into training and testing sets
